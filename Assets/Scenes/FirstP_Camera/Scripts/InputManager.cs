@@ -7,7 +7,6 @@ public class InputManager : MonoBehaviour
 {
     private PlayerInput playerInput;
     private PlayerInput.GameplayActions gameplay;
-
     private PlayerMovement movement;
 
 
@@ -17,6 +16,7 @@ public class InputManager : MonoBehaviour
         playerInput = new PlayerInput();
         gameplay = playerInput.Gameplay;
         movement = GetComponent<PlayerMovement>();
+        gameplay.Jump.performed += ctx => movement.Jump();
 
     }
 
