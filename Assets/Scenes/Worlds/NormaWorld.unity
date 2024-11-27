@@ -6594,6 +6594,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodBar: {fileID: 0}
+  spawn: {fileID: 0}
+  WithGluten: 20
+  NoGluten: -5
 --- !u!54 &672603353
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6634,8 +6637,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodBar: {fileID: 1827253226}
-  maxFood: 100
-  currentFood: 0
 --- !u!114 &672603355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6651,7 +6652,7 @@ MonoBehaviour:
   distance: 80
   mask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   playerUI: {fileID: 0}
   inputManager: {fileID: 0}
 --- !u!114 &672603364
@@ -6667,6 +6668,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptText: {fileID: 468837644}
+--- !u!114 &672603373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672603343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcd48bf592063d418bccf8c736e529d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodBar: {fileID: 1827253228}
+  spawn: {fileID: 0}
+  WithGluten: 20
+  NoGluten: -5
 --- !u!1 &678989557
 GameObject:
   m_ObjectHideFlags: 0
@@ -14419,6 +14436,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1827253228 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5367705674114733979, guid: 1e6bab793d97d4445b88ea90a4bc37dd, type: 3}
+  m_PrefabInstance: {fileID: 248876074982286561}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 473e150c5b615234e80863b6b77da690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1829211225
 GameObject:
   m_ObjectHideFlags: 0
@@ -16825,6 +16853,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2608273322899284896, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
       insertIndex: -1
       addedObject: {fileID: 672603364}
+    - targetCorrespondingSourceObject: {fileID: 2608273322899284896, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 672603373}
   m_SourcePrefab: {fileID: 100100000, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
 --- !u!1001 &6336968715237863233
 PrefabInstance:
