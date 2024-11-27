@@ -5,12 +5,14 @@ using UnityEngine;
 public class SpawnPastries : MonoBehaviour
 {
     public GameObject[] pastries;
+    private int Eatenpastrie;
     private int eaten = 0;
     void Start()
     {
         foreach(GameObject pastrie in pastries)
         {
-            pastrie.SetActive(false);
+           pastrie.SetActive(false);
+
         }
         
     }
@@ -20,7 +22,6 @@ public class SpawnPastries : MonoBehaviour
         if(eaten < pastries.Length)
         {
             pastries[eaten].SetActive(true);
-            eaten++;
         }
     }
 

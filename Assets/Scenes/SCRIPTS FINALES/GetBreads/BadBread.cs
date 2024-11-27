@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class BadBread : MonoBehaviour
+public class BadBread : MonoBehaviour, ITakeBread
 {
 
     public Image foodBar; 
