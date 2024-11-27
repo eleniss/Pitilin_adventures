@@ -10,13 +10,18 @@ public class PlayerInteract : MonoBehaviour //script detecta elementos interactu
     private float distance = 3f;
     [SerializeField]
     private LayerMask mask;
+    [SerializeField]
     private PlayerUI playerUI;
+    [SerializeField]
+    private InputManager inputManager;
 
     // Start is called before the first frame update
     void Start()
     {
         cam = GetComponent<PlayerLook>().cam;
         playerUI = GetComponent<PlayerUI>();
+        inputManager = GetComponent<InputManager>();
+        
     }
 
     // Update is called once per frame
@@ -31,8 +36,13 @@ public class PlayerInteract : MonoBehaviour //script detecta elementos interactu
         { //dentro verificamos si tenemos delante un objeto interactivo (layer de interactable)
             if(hitInfo.collider.GetComponent<Interactable>() != null)
             {
-                //playerUI.UpdateText
-                Debug.Log(hitInfo.collider.GetComponent<Interactable>().mensaje); //cuando tengamos delante un objeto interactivo aparecerá el mensaje "E para abrir" o lo que sea
+                Interactable interactable = hitInfo.collider.GetComponent<Interactable>();
+                //Debug.Log
+                playerUI.UpdateText(interactable.mensaje); //cuando tengamos delante un objeto interactivo aparecerá el mensaje "E para abrir" o lo que sea
+                if (inputManager.gameplay.Interact.triggered)
+                {
+                    interactable.BaseInteract();
+                }
             }
 
         }
