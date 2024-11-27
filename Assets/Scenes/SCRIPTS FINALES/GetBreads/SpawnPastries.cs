@@ -21,7 +21,6 @@ public class SpawnPastries : MonoBehaviour
         {
             pastries[eaten].SetActive(true);
             eaten++;
-            //Debug.Log("Y la que aparezca");
         }
     }
 
