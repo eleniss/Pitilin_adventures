@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - GoodBread
+<<<<<<< Updated upstream
+=======
+  - BadBread
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
