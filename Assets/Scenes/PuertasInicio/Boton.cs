@@ -6,6 +6,9 @@ using UnityEngine;
 //queremos que este script herede de interactable, por eso cambiamos el monobehaviour a interactable
 public class Boton : Interactable
 {
+    [SerializeField]
+    private GameObject door;
+    private bool doorOpen;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +22,7 @@ public class Boton : Interactable
     }
     protected override void Interact() //diseñamos interacción (cambiar color, abrir algo, lo que sea)
     {
-        Debug.Log("Interacted with " + gameObject.name);
+        doorOpen = !doorOpen;
+        door.GetComponent<Animator>().SetBool("IsOpen", doorOpen);
     }
 }
