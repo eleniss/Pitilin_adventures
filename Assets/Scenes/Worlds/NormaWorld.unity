@@ -2045,7 +2045,7 @@ GameObject:
   - component: {fileID: 190137821}
   - component: {fileID: 190137820}
   - component: {fileID: 190137819}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: BOTON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6652,7 +6652,7 @@ MonoBehaviour:
   distance: 80
   mask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   playerUI: {fileID: 0}
   inputManager: {fileID: 0}
 --- !u!114 &672603364
@@ -8128,7 +8128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: 0}
   player: {fileID: 0}
-  whatIsGrouns:
+  whatIsGround:
     serializedVersion: 2
     m_Bits: 0
   whatIsPlayer:
@@ -17141,3 +17141,4 @@ SceneRoots:
   - {fileID: 1297586611}
   - {fileID: 396023227}
   - {fileID: 712406618}
+  - {fileID: 798934595}
