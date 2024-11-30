@@ -6,7 +6,7 @@ public class GetBreads : MonoBehaviour
 {
 
     public GoodBread foodBar;
-    public SpawnPastries spawn;
+    private SpawnPastries spawn;
     public float WithGluten = 20f;
     public float NoGluten = -5f;
 
@@ -16,8 +16,8 @@ public class GetBreads : MonoBehaviour
         if (other.CompareTag("GoodBread"))
         {
             Destroy(other.gameObject);
+            spawn.EatBread(WithGluten);
             foodBar.EatBread(WithGluten); 
-            spawn.spawnFood();
 
         }
         else if (other.CompareTag("BadBread"))
@@ -26,4 +26,5 @@ public class GetBreads : MonoBehaviour
             foodBar.EatBread(NoGluten);
         }
     }
+
 }

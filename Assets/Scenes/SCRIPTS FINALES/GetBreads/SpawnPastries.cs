@@ -16,6 +16,13 @@ public class SpawnPastries : MonoBehaviour
         }
         
     }
+    public void EatBread(float amount)
+    {
+        if (amount > 0)
+        {
+            spawnFood();
+        }
+    }
 
     public void spawnFood()
     {
