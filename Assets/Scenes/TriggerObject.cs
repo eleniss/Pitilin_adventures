@@ -24,4 +24,10 @@ public class TriggerObject : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+    private IEnumerator StartDissolveAfterDelay(DissolveEffect dissolveEffect, float delay)
+    {
+        yield return new WaitForSeconds(delay); // Wait for 2 seconds
+        dissolveEffect.StartDissolve(1f); // Start dissolving over 1 second
+    }
+
 }
