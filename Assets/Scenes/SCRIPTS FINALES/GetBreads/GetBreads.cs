@@ -9,12 +9,19 @@ public class GetBreads : MonoBehaviour
     private SpawnPastries spawn;
     public float WithGluten = 20f;
     public float NoGluten = -5f;
+    public AudioSource audioSource;
 
     private void OnTriggerEnter(Collider other)
     {
 
         if (other.CompareTag("GoodBread"))
         {
+
+            if (audioSource != null)
+            {
+                audioSource.Play();
+            }
+
             Destroy(other.gameObject);
             foodBar.EatBread(WithGluten); 
             spawn.EatBread(WithGluten);
