@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnPastries : MonoBehaviour
+public class SpawnPastries : MonoBehaviour, ITakeBread
 {
     public GameObject[] pastries;
     private int Eatenpastrie;

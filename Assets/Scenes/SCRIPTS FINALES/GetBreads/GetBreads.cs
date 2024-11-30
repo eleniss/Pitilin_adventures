@@ -16,8 +16,8 @@ public class GetBreads : MonoBehaviour
         if (other.CompareTag("GoodBread"))
         {
             Destroy(other.gameObject);
-            spawn.EatBread(WithGluten);
             foodBar.EatBread(WithGluten); 
+            spawn.EatBread(WithGluten);
 
         }
         else if (other.CompareTag("BadBread"))
