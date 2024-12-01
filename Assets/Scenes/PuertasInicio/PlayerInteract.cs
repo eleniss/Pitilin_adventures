@@ -14,6 +14,7 @@ public class PlayerInteract : MonoBehaviour //script detecta elementos interactu
     private PlayerUI playerUI;
     [SerializeField]
     private InputManager inputManager;
+    private Weapon equippedWeapon;
 
     // Start is called before the first frame update
     void Start()
@@ -42,9 +43,21 @@ public class PlayerInteract : MonoBehaviour //script detecta elementos interactu
                 if (inputManager.gameplay.Interact.triggered)
                 {
                     interactable.BaseInteract();
+                    if (interactable is Weapon weapon)
+                    {
+                        EquipWeapon(weapon);
+                    }
                 }
             }
 
         }
+    }
+    private void EquipWeapon(Weapon weapon)
+    {
+        if (equippedWeapon != null) return;
+
+        equippedWeapon = weapon;
+        weapon.weaponPos = transform; // Mano del jugador como referencia
+        Debug.Log("Arma recogida.");
     }
 }
