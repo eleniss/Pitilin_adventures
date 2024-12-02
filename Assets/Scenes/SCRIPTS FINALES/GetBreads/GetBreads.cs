@@ -6,9 +6,11 @@ public class GetBreads : MonoBehaviour
 {
 
     public GoodBread foodBar;
+    public ChangeSaturation _changeSaturation;
     private SpawnPastries spawn;
     public float WithGluten = 20f;
     public float NoGluten = -5f;
+    public float Saturation = 5f;
     public AudioSource audioSource;
 
     private void OnTriggerEnter(Collider other)
@@ -22,7 +24,9 @@ public class GetBreads : MonoBehaviour
                 audioSource.Play();
             }
 
+
             Destroy(other.gameObject);
+            _changeSaturation.CambioSaturacion(Saturation);
             foodBar.EatBread(WithGluten); 
             spawn.EatBread(WithGluten);
 
