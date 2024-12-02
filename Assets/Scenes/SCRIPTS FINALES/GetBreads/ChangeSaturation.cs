@@ -14,7 +14,7 @@ public class ChangeSaturation : MonoBehaviour
     {
         if(_PostProcessVol.profile.TryGetSettings(out _colorGrading))
         {
-            _colorGrading.saturation.value = 0;
+            _colorGrading.saturation.value = -50;
         }
     }
 

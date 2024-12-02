@@ -7473,7 +7473,7 @@ MonoBehaviour:
   _changeSaturation: {fileID: 1707909404}
   WithGluten: 20
   NoGluten: -5
-  Saturation: 50
+  Saturation: 74.1
   audioSource: {fileID: 1028220635}
 --- !u!54 &672603353
 Rigidbody:
