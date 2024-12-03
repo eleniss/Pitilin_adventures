@@ -6,7 +6,7 @@ using Random = UnityEngine.Random; //IMPORTANT, coger el del Engine
 
 public class EdgePatrol : MonoBehaviour
 {
-    public Transform DetectionPoint; //de aqui solo tengo uno enfrente. podria tener más (alrededor del personaje)
+    public Transform DetectionPoint; //de aquei solo tengo uno enfrente. podria tener más (alrededor del personaje)
     public float speed = 5;
     public LayerMask WhatIsGround;
     void Start()
@@ -19,9 +19,9 @@ public class EdgePatrol : MonoBehaviour
     {
         if (EdgeDetected())
         {
-            Move();
+            Turn();
         }
-        Turn();
+        Move();
     }
 
     private bool EdgeDetected()
