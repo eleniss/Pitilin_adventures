@@ -29,8 +29,6 @@ public class EdgePatrol : MonoBehaviour
     private bool EdgeDetected()
     {
 
-        return Physics.Raycast(DetectionPoint.position, Vector3.down, 15.15f, WhatIsGround);      //cojo la posicion del detection point, luego su direccion y luego la distancia a del suelo, para evitar que no caiga y finalmente que lo que vea sea el suelo.
-
         return ! Physics.Raycast(DetectionPoint.position, Vector3.down, distance, WhatIsGround);      //cojo la posicion del detection point, luego su direccion y luego la distancia a del suelo, para evitar que no caiga y finalmente que lo que vea sea el suelo.
 
     }
