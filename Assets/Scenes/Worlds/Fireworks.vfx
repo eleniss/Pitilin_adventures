@@ -593,7 +593,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"vector":{"x":-0.3330000042915344,"y":11.0,"z":-0.3330000042915344}}'
+      m_SerializableObject: '{"vector":{"x":-3.0,"y":11.0,"z":-3.0}}'
     m_Space: 0
   m_Property:
     name: A
@@ -763,7 +763,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"vector":{"x":0.3330000042915344,"y":14.0,"z":0.3330000042915344}}'
+      m_SerializableObject: '{"vector":{"x":3.0,"y":14.0,"z":3.0}}'
     m_Space: 0
   m_Property:
     name: B
@@ -2114,7 +2114,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.05
+      m_SerializableObject: 10
     m_Space: 2147483647
   m_Property:
     name: Size

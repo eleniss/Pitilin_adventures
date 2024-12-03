@@ -2749,7 +2749,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &240404954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4035,6 +4035,10 @@ PrefabInstance:
       value: Pan (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4262589295181100164, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262589295181100164, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
       propertyPath: m_TagString
       value: GoodBread
       objectReference: {fileID: 0}
@@ -4632,7 +4636,7 @@ VFXRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -10665,6 +10669,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 156555297337111575, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 156555297337111575, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
       propertyPath: m_Animation
       value: 

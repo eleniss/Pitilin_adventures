@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9003338242071052966
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1374380397647941336, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374380397647941336, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374380397647941336, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -410
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374380397647941336, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9997154
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374380397647941336, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.02385914
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374380397647941336, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374380397647941336, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374380397647941336, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.734
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374380397647941336, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374380397647941336, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005898663681832197, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005898663681832197, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262589295181100164, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_Name
+      value: PanCopia Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262589295181100164, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4262589295181100164, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      propertyPath: m_TagString
+      value: GoodBread
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4262589295181100164, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6210943816116178141}
+  m_SourcePrefab: {fileID: 100100000, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+--- !u!1 &5176195134465979938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4262589295181100164, guid: 3505dbafc526be64c950dee16d1c07bd, type: 3}
+  m_PrefabInstance: {fileID: 9003338242071052966}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6210943816116178141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5176195134465979938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5543c89d96b164d9f807f8291899ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _PostProcessVol: {fileID: 0}

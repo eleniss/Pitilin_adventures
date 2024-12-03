@@ -6,7 +6,7 @@ using Random = UnityEngine.Random; //IMPORTANT, coger el del Engine
 
 public class EdgePatrol : MonoBehaviour
 {
-    public Transform DetectionPoint; //de aquei solo tengo uno enfrente. podria tener más (alrededor del personaje)
+    public Transform DetectionPoint; //de aqui solo tengo uno enfrente. podria tener más (alrededor del personaje)
     public float speed = 5;
     public LayerMask WhatIsGround;
     void Start()
@@ -19,14 +19,14 @@ public class EdgePatrol : MonoBehaviour
     {
         if (EdgeDetected())
         {
-            Turn();
+            Move();
         }
-        Move();
+        Turn();
     }
 
     private bool EdgeDetected()
     {
-        return Physics.Raycast(DetectionPoint.position, Vector3.down, 14.9f, WhatIsGround);      //cojo la posicion del detection point, luego su direccion y luego la distancia a del suelo, para evitar que no caiga y finalmente que lo que vea sea el suelo.
+        return Physics.Raycast(DetectionPoint.position, Vector3.down, 15.15f, WhatIsGround);      //cojo la posicion del detection point, luego su direccion y luego la distancia a del suelo, para evitar que no caiga y finalmente que lo que vea sea el suelo.
     }
 
     private void Turn()
