@@ -10,6 +10,7 @@ public class Weapon : Interactable
     private Quaternion originalRotation;
     private Transform originalParent;
 
+
     private void Start()
     {
         // Guarda la posición, rotación y padre originales para restaurar si es necesario
@@ -54,4 +55,5 @@ public class Weapon : Interactable
 
         Debug.Log("Arma desequipada.");
     }
+    
 }

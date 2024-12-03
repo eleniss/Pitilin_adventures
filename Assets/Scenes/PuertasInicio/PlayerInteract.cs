@@ -15,6 +15,7 @@ public class PlayerInteract : MonoBehaviour //script detecta elementos interactu
     [SerializeField]
     private InputManager inputManager;
     private Weapon equippedWeapon;
+    public Transform weaponPos;
 
     // Start is called before the first frame update
     void Start()
@@ -43,10 +44,10 @@ public class PlayerInteract : MonoBehaviour //script detecta elementos interactu
                 if (inputManager.gameplay.Interact.triggered)
                 {
                     interactable.BaseInteract();
-                    if (interactable is Weapon weapon)
-                    {
-                        EquipWeapon(weapon);
-                    }
+                    //if (interactable is Weapon weapon)
+                    //{
+                    //    EquipWeapon(weapon);
+                    //}
                 }
             }
 
