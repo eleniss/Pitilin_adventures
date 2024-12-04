@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9d8deb4f3f738469ba18b4c914317298, type: 2}
+    - target: {fileID: 342566891070741283, guid: a88e38d4a68324d9ab1feaf76c74b467, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 553618061677941980, guid: a88e38d4a68324d9ab1feaf76c74b467, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
