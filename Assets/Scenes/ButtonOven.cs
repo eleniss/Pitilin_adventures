@@ -6,9 +6,9 @@ public class ButtonOven : MonoBehaviour
 {
     public GameObject visualEffect; // Assign your visual effect GameObject in the Inspector
     private Vector3 originalPosition;
-    public float buttonPressDepth = 0.1f; // How far the button "presses"
+    public float buttonPressDepth = 1f; // How far the button "presses"
     public float pressDuration = 0.2f;   // How long the button stays pressed
-
+    public Transform spawnPoint;
     private bool isPressed = false;
 
     private void Start()
@@ -22,38 +22,33 @@ public class ButtonOven : MonoBehaviour
         if (!isPressed)
         {
             isPressed = true;
-            StartCoroutine(PressButton());
+            PressButton();
         }
     }
 
-    private System.Collections.IEnumerator PressButton()
+    private void PressButton()
     {
-        // Move the button down to simulate a press
+        // PRESIÓN BOTON
         transform.position = originalPosition - new Vector3(0, buttonPressDepth, 0);
 
-        // Show the visual effect
+       
         if (visualEffect != null)
         {
-            visualEffect.SetActive(true);
-
-            // Automatically disable the visual effect after a delay
-            StartCoroutine(HideEffectAfterDelay(0.5f)); // Adjust duration if needed
+            GameObject vfx = Instantiate(visualEffect, spawnPoint.position, spawnPoint.rotation);
+            
         }
-
-        yield return new WaitForSeconds(pressDuration);
-
-        // Reset the button position
+        // Reset button position
         transform.position = originalPosition;
 
         isPressed = false;
     }
 
-    private System.Collections.IEnumerator HideEffectAfterDelay(float delay)
+    /*private System.Collections.IEnumerator HideEffectAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
         if (visualEffect != null)
         {
             visualEffect.SetActive(false);
         }
-    }
+    }*/
 }
