@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class ButtonOven : MonoBehaviour
 {
-    public GameObject visualEffect; // Assign your visual effect GameObject in the Inspector
+    public GameObject visualEffect_Fire;
+    public GameObject visualEffect_Firework1;
+    public GameObject visualEffect_Firework2;
+
     private Vector3 originalPosition;
-    public float buttonPressDepth = 1f; // How far the button "presses"
-    public float pressDuration = 0.2f;   // How long the button stays pressed
-    public Transform spawnPoint;
+    public float buttonPressDepth = 1f; 
+    public float pressDuration = 0.2f;   
+    public Transform spawnPoint_Fire;
+    public Transform spawnPoint_Firework1;
+    public Transform spawnPoint_Firework2;
+
     private bool isPressed = false;
 
     private void Start()
@@ -31,13 +37,13 @@ public class ButtonOven : MonoBehaviour
         // PRESIÓN BOTON
         transform.position = originalPosition - new Vector3(0, buttonPressDepth, 0);
 
-       
-        if (visualEffect != null)
+        if (visualEffect_Fire != null && visualEffect_Firework1 != null && visualEffect_Firework2 != null)
         {
-            GameObject vfx = Instantiate(visualEffect, spawnPoint.position, spawnPoint.rotation);
-            
+            GameObject vfx = Instantiate(visualEffect_Fire, spawnPoint_Fire.position, spawnPoint_Fire.rotation);
+            GameObject vfx_fi1 = Instantiate(visualEffect_Firework1, spawnPoint_Firework1.position, spawnPoint_Firework1.rotation);
+            GameObject vfx_fi2 = Instantiate(visualEffect_Firework2, spawnPoint_Firework2.position, spawnPoint_Firework2.rotation);
         }
-        // Reset button position
+
         transform.position = originalPosition;
 
         isPressed = false;
