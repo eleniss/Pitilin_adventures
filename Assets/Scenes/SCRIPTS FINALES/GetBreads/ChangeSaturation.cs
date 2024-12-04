@@ -10,12 +10,12 @@ public class ChangeSaturation : MonoBehaviour
     // Start is called before the first frame update
     public PostProcessVolume _PostProcessVol;
     private ColorGrading _colorGrading;
-    private float _currentSat = 0f;
+    private float _currentSat = -20f;
     void Start()
     {
         if(_PostProcessVol.profile.TryGetSettings(out _colorGrading))
         {
-            _currentSat = _colorGrading.saturation.value = -50;
+            _currentSat = _colorGrading.saturation.value;
         }
     }
 
@@ -27,7 +27,7 @@ public class ChangeSaturation : MonoBehaviour
             _currentSat += newSat;
             _currentSat = Mathf.Clamp(_currentSat, -100f, 100f);
 
-            _colorGrading.saturation.value = newSat;
+            _colorGrading.saturation.value = _currentSat;
 
         }
     }
