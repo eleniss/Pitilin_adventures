@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpawnPastries : MonoBehaviour//, ITakeBread
 {
     public GameObject[] pastries;
-    public Vector3 max, min;
+    public Transform[] _spawnPastries;
     private int Eatenpastrie;
     private int eaten = 0;
 
@@ -33,11 +33,16 @@ public class SpawnPastries : MonoBehaviour//, ITakeBread
         //{
         //    pastries[eaten].SetActive(true);
         //}
-        float x = Random.Range(min.x, max.x);
-        float z = Random.Range(-min.z, max.z);  
+        //float x = Random.Range(min.x, max.x);
+        //float z = Random.Range(-min.z, max.z);  
         int randomIndex = Random.Range(0, pastries.Length);
-        Vector3 randomSpawnPos = new Vector3(x, max.y, z);
-        Instantiate(pastries[randomIndex], randomSpawnPos, Quaternion.identity);
+        int randomSpawn = Random.Range(0, _spawnPastries.Length);
+        //Vector3 randomSpawnPos = new Vector3(x, max.y, z);
+        if( pastries[randomIndex] != null && _spawnPastries != null)
+        {
+            Instantiate(pastries[randomIndex], _spawnPastries[randomSpawn].position, _spawnPastries[randomSpawn].rotation);
+
+        }
 
     }
 
