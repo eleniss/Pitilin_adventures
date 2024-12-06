@@ -48,7 +48,7 @@ public class SpawnPastries : MonoBehaviour//, ITakeBread
 
     //public void destroyFood()
     //{
-    //   Destroy(gameObject);
+    //    Destroy(gameObject);
     //}
 
 }
