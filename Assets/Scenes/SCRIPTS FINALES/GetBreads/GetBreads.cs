@@ -35,6 +35,7 @@ public class GetBreads : MonoBehaviour
         {
             Destroy(other.gameObject);
             foodBar.EatBread(NoGluten);
+            //spawn.destroyFood();
         }
     }
 
