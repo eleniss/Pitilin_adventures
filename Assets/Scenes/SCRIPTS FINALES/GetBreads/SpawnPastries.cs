@@ -20,16 +20,15 @@ public class SpawnPastries : MonoBehaviour
 
     }
 
-    public void spawnHater()
-    {
-        //int randomIndex = Random.Range(0, NoPastrie.Length);
-        int randomSpawn = Random.Range(0, _spawnHater.Length);
-        if (NoPastrie != null && _spawnPastries != null)
-        {
-            Instantiate(NoPastrie, _spawnHater[randomSpawn].position, _spawnHater[randomSpawn].rotation);
+    //public void spawnHater()
+    //{
+    //    int randomSpawn = Random.Range(0, _spawnHater.Length);
+    //    if (NoPastrie != null && _spawnPastries != null)
+    //    {
+    //        Instantiate(NoPastrie, _spawnHater[randomSpawn].position, _spawnHater[randomSpawn].rotation);
 
-        }
-    }
+    //    }
+    //}
 
 
 }

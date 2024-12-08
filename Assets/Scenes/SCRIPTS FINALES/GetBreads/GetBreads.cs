@@ -26,8 +26,9 @@ public class GetBreads : MonoBehaviour
 
             Destroy(other.gameObject);
             _changeSaturation.OnObjectDestroyed();
-            foodBar.EatBread(WithGluten); 
             spawn.spawnFood();
+
+            foodBar.EatBread(WithGluten); 
 
         }
         else if (other.CompareTag("BadBread"))
@@ -35,7 +36,7 @@ public class GetBreads : MonoBehaviour
             Destroy(other.gameObject);
             foodBar.EatBread(NoGluten);
             _changeSaturation.ResetSat();
-            spawn.spawnHater();
+            //spawn.spawnHater();
         }
     }
 
