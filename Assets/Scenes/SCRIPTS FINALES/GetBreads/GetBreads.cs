@@ -7,7 +7,7 @@ public class GetBreads : MonoBehaviour
 
     public GoodBread foodBar;
     public ChangeSaturation _changeSaturation;
-    public SpawnPastries spawn;
+    public spawnObjects spawn;
     public GameObject[] pastries;
     public float WithGluten = 20f;
     public float NoGluten = -5f;
@@ -36,7 +36,7 @@ public class GetBreads : MonoBehaviour
             Destroy(other.gameObject);
             foodBar.EatBread(NoGluten);
             _changeSaturation.ResetSat();
-            //spawn.spawnHater();
+            spawn.spawnHater();
         }
     }
 

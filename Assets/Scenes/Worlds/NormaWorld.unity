@@ -313,7 +313,7 @@ Transform:
   m_GameObject: {fileID: 7417147}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: 4, y: 94, z: 875}
+  m_LocalPosition: {x: 39, y: 94, z: 858}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9513,7 +9513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   foodBar: {fileID: 1827253228}
   _changeSaturation: {fileID: 1664564488}
-  spawn: {fileID: 672603383}
+  spawn: {fileID: 672603418}
   pastries:
   - {fileID: 2455822814106239852, guid: f4d6c5eac28134840b8b154de03eea25, type: 3}
   - {fileID: 715095410854599848, guid: 38c058acb5666cb40b32c31511d0914e, type: 3}
@@ -9595,46 +9595,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   promptText: {fileID: 468837644}
---- !u!114 &672603383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672603343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee5e5247f2efe614db15715467726109, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pastries:
-  - {fileID: 2455822814106239852, guid: f4d6c5eac28134840b8b154de03eea25, type: 3}
-  - {fileID: 715095410854599848, guid: 38c058acb5666cb40b32c31511d0914e, type: 3}
-  - {fileID: 4512159021639819678, guid: de566c23cafc0d14e8dc1e1fe8d0ff42, type: 3}
-  - {fileID: 4259367458942334920, guid: 7d5fd7ef4c324664d8cbd589c3e0e6f0, type: 3}
-  - {fileID: 6262293668792555615, guid: 4ad58973059e0da448d3a8da15f01ccd, type: 3}
-  - {fileID: 9220456544280077562, guid: e9e7adfedc5d7844abd25b5968c3bb1c, type: 3}
-  - {fileID: 2326837261043828224, guid: f66a9ec97500d504493a51a72a33539b, type: 3}
-  - {fileID: 7936699273744354467, guid: 5e7d56b030a6f574896777c8da2f50fc, type: 3}
-  - {fileID: 7200054402585635088, guid: 096e79d9e587afe4c9eff8abc69340cd, type: 3}
-  - {fileID: 6007349881686237739, guid: 076ef8d69b2ee564ea891bfbc99e9a3c, type: 3}
-  NoPastrie: {fileID: 8996971624385725868, guid: 1b3f6184b43fe1544966b7cd611f1220, type: 3}
-  _spawnPastries:
-  - {fileID: 1724888891}
-  - {fileID: 575830944}
-  - {fileID: 1607422606}
-  - {fileID: 49770131}
-  - {fileID: 601793605}
-  - {fileID: 669172816}
-  - {fileID: 240985083}
-  - {fileID: 1852933325}
-  - {fileID: 83464922}
-  _spawnHater:
-  - {fileID: 208458188}
-  - {fileID: 7417148}
-  - {fileID: 711080038}
-  - {fileID: 583568220}
-  - {fileID: 1203336468}
 --- !u!114 &672603392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9686,6 +9646,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaPlayer: 100
   barraVidaPlayer: {fileID: 1718160593}
+--- !u!114 &672603418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672603343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9bd0e3cf63c9a49b04c27d42179b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pastries:
+  - {fileID: 2455822814106239852, guid: f4d6c5eac28134840b8b154de03eea25, type: 3}
+  - {fileID: 715095410854599848, guid: 38c058acb5666cb40b32c31511d0914e, type: 3}
+  - {fileID: 4512159021639819678, guid: de566c23cafc0d14e8dc1e1fe8d0ff42, type: 3}
+  - {fileID: 4259367458942334920, guid: 7d5fd7ef4c324664d8cbd589c3e0e6f0, type: 3}
+  - {fileID: 6262293668792555615, guid: 4ad58973059e0da448d3a8da15f01ccd, type: 3}
+  - {fileID: 9220456544280077562, guid: e9e7adfedc5d7844abd25b5968c3bb1c, type: 3}
+  - {fileID: 2326837261043828224, guid: f66a9ec97500d504493a51a72a33539b, type: 3}
+  - {fileID: 7936699273744354467, guid: 5e7d56b030a6f574896777c8da2f50fc, type: 3}
+  - {fileID: 7200054402585635088, guid: 096e79d9e587afe4c9eff8abc69340cd, type: 3}
+  - {fileID: 6007349881686237739, guid: 076ef8d69b2ee564ea891bfbc99e9a3c, type: 3}
+  _spawnPastries:
+  - {fileID: 1724888891}
+  - {fileID: 575830944}
+  - {fileID: 1607422606}
+  - {fileID: 49770131}
+  - {fileID: 601793605}
+  - {fileID: 669172816}
+  - {fileID: 240985083}
+  - {fileID: 1852933325}
+  - {fileID: 83464922}
+  NoPastrie: {fileID: 8996971624385725868, guid: 1b3f6184b43fe1544966b7cd611f1220, type: 3}
+  _spawnHater:
+  - {fileID: 208458188}
+  - {fileID: 7417148}
+  - {fileID: 711080038}
+  - {fileID: 583568220}
+  - {fileID: 1203336468}
 --- !u!1 &678989557
 GameObject:
   m_ObjectHideFlags: 0
@@ -23883,13 +23883,13 @@ PrefabInstance:
       addedObject: {fileID: 672603353}
     - targetCorrespondingSourceObject: {fileID: 2608273322899284896, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 672603418}
+    - targetCorrespondingSourceObject: {fileID: 2608273322899284896, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 672603355}
     - targetCorrespondingSourceObject: {fileID: 2608273322899284896, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
       insertIndex: -1
       addedObject: {fileID: 672603364}
-    - targetCorrespondingSourceObject: {fileID: 2608273322899284896, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 672603383}
     - targetCorrespondingSourceObject: {fileID: 2608273322899284896, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
       insertIndex: -1
       addedObject: {fileID: 672603392}
