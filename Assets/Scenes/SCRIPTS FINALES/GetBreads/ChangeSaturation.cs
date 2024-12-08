@@ -8,27 +8,24 @@ using UnityEngine.Rendering.PostProcessing;
 public class ChangeSaturation : MonoBehaviour
 {
     // Start is called before the first frame update
-    public PostProcessVolume _PostProcessVol;
-    private ColorGrading _colorGrading;
-    private float _currentSat = -20f;
-    void Start()
+    public Material _materialFullScreen;
+    private float destructionCount = 0f;
+    private float maxSat = 100f;
+    private float minSat = 0f;
+
+    public void OnObjectDestroyed()
     {
-        if(_PostProcessVol.profile.TryGetSettings(out _colorGrading))
-        {
-            _currentSat = _colorGrading.saturation.value;
-        }
+        destructionCount = Mathf.Min(destructionCount + 5f, maxSat);
+
+        _materialFullScreen.SetFloat("_saturation", destructionCount);
+
     }
 
-    // Update is called once per frame
-    public void CambioSaturacion(float newSat)
+    public void ResetSat()
     {
-        if(_colorGrading != null)
-        {
-            _currentSat += newSat;
-            _currentSat = Mathf.Clamp(_currentSat, -100f, 100f);
-
-            _colorGrading.saturation.value = _currentSat;
-
-        }
+        destructionCount = Mathf.Min(destructionCount - 1f, minSat);
+        _materialFullScreen.SetFloat("_saturation", destructionCount);
     }
+
+
 }

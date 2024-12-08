@@ -11,7 +11,6 @@ public class GetBreads : MonoBehaviour
     public GameObject[] pastries;
     public float WithGluten = 20f;
     public float NoGluten = -5f;
-    public float Saturation = 20f;
     public AudioSource audioSource;
 
     private void OnTriggerEnter(Collider other)
@@ -26,7 +25,7 @@ public class GetBreads : MonoBehaviour
             }
 
             Destroy(other.gameObject);
-            _changeSaturation.CambioSaturacion(Saturation);
+            _changeSaturation.OnObjectDestroyed();
             foodBar.EatBread(WithGluten); 
             spawn.spawnFood();
 
@@ -35,7 +34,8 @@ public class GetBreads : MonoBehaviour
         {
             Destroy(other.gameObject);
             foodBar.EatBread(NoGluten);
-            //spawn.destroyFood();
+            _changeSaturation.ResetSat();
+            spawn.spawnHater();
         }
     }
 

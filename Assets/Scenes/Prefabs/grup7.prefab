@@ -88,7 +88,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 06e9d1d39c7b12449953a3409bf7536d, type: 3}
       propertyPath: m_Name
-      value: Cupcake
+      value: grup7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 06e9d1d39c7b12449953a3409bf7536d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06e9d1d39c7b12449953a3409bf7536d, type: 3}
       propertyPath: m_LocalScale.x

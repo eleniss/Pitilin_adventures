@@ -40,7 +40,7 @@ Material:
     - _Fullscreen_AlphaBlendOperation: 0
     - _Fullscreen_BlendMode: 1
     - _Fullscreen_ColorBlendOperation: 0
-    - _Fullscreen_DepthWrite: 0
+    - _Fullscreen_DepthWrite: 1
     - _Fullscreen_DstAlphaBlend: 10
     - _Fullscreen_DstColorBlend: 10
     - _Fullscreen_SrcAlphaBlend: 1
@@ -49,5 +49,5 @@ Material:
     - _saturation: 1
     - _value: 1
     m_Colors:
-    - _color1: {r: 0.36267355, g: 0.4716981, b: 0.37824848, a: 0.48235294}
+    - _color1: {r: 0.42083484, g: 0.46226418, b: 0.42083484, a: 0.62352943}
   m_BuildTextureStacks: []

@@ -292,7 +292,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5869213248351403094, guid: c8c21689e419d46b08cd83b3f6f0af1c, type: 3}
       propertyPath: m_Name
-      value: ChocolateDonutPrefabVariant Variant
+      value: grup3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869213248351403094, guid: c8c21689e419d46b08cd83b3f6f0af1c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

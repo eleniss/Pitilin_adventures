@@ -84,7 +84,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 186799609498798025, guid: 2881fef2849194f4788664e1e7c11866, type: 3}
       propertyPath: m_Name
-      value: PlainDonutPrefabVariant Variant
+      value: grup4
+      objectReference: {fileID: 0}
+    - target: {fileID: 186799609498798025, guid: 2881fef2849194f4788664e1e7c11866, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5671197638419177875, guid: 2881fef2849194f4788664e1e7c11866, type: 3}
       propertyPath: m_LocalScale.x
