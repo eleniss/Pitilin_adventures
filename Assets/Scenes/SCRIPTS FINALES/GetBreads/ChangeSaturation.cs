@@ -27,5 +27,23 @@ public class ChangeSaturation : MonoBehaviour
         _materialFullScreen.SetFloat("_saturation", destructionCount);
     }
 
+    //public PostProcessVolume vol;
+    //private ColorGrading colorGrading;
 
+    //void Start()
+    //{
+    //    
+    //    if (vol.profile.TryGetSettings(out colorGrading))
+    //    {
+    //        colorGrading.saturation.value = 0;
+    //    }
+    //}
+
+    //public void CambiarSaturacion(float newSaturation)
+    //{
+    //    if (colorGrading != null)
+    //    {
+    //        colorGrading.saturation.value = newSaturation;
+    //    }
+    //}
 }
