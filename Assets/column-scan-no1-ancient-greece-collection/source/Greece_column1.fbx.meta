@@ -3,7 +3,17 @@ guid: 8a7827b934c01724ab8a373b4bb97c65
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Greece_column1_u0_v0_diffuse
+    second: {fileID: 2800000, guid: acab28d98f5a2ad4f8d432b11e063fe4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Greece_column1_u0_v0_normal
+    second: {fileID: 2800000, guid: c910a58a36048854d9f41c9ac80bc126, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -90,7 +100,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.03
+    globalScale: 3
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
