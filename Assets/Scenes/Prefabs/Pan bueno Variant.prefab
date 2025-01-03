@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e5543c89d96b164d9f807f8291899ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _PostProcessVol: {fileID: 0}
+  _materialFullScreen: {fileID: 2100000, guid: 6626eb853206c174ab20a56721ea189d, type: 2}
 --- !u!198 &3496132374235029216
 ParticleSystem:
   m_ObjectHideFlags: 0

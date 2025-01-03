@@ -7,11 +7,10 @@ public class GetBreads : MonoBehaviour
 
     public GoodBread foodBar;
     public ChangeSaturation _changeSaturation;
-    public SpawnPastries spawn;
+    public spawnObjects spawn;
     public GameObject[] pastries;
     public float WithGluten = 20f;
     public float NoGluten = -5f;
-    public float Saturation = 20f;
     public AudioSource audioSource;
 
     private void OnTriggerEnter(Collider other)
@@ -26,16 +25,18 @@ public class GetBreads : MonoBehaviour
             }
 
             Destroy(other.gameObject);
-            _changeSaturation.CambioSaturacion(Saturation);
-            foodBar.EatBread(WithGluten); 
+            _changeSaturation.OnObjectDestroyed();
             spawn.spawnFood();
+
+            foodBar.EatBread(WithGluten); 
 
         }
         else if (other.CompareTag("BadBread"))
         {
             Destroy(other.gameObject);
             foodBar.EatBread(NoGluten);
-            //spawn.destroyFood();
+            _changeSaturation.ResetSat();
+            spawn.spawnHater();
         }
     }
 

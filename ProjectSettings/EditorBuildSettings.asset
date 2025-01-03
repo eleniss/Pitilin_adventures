@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Worlds/Homescreen.unity
+    path: Assets/Scenes/Scenes_Worlds/Homescreen.unity
     guid: 23123b6397a23fe4f8600ce22612a299
   - enabled: 1
-    path: Assets/Scenes/Worlds/NormaWorld.unity
+    path: Assets/Scenes/Scenes_Worlds/NormaWorld.unity
     guid: 2aa6bf7b581bb864b8edfcc40701f932
   - enabled: 1
     path: Assets/Scenes/Worlds/DistopicWorld.unity
