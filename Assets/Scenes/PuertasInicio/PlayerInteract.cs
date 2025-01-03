@@ -15,7 +15,6 @@ public class PlayerInteract : MonoBehaviour //script detecta elementos interactu
     [SerializeField]
     private InputManager inputManager;
     private Weapon equippedWeapon;
-    public Transform weaponPos;
 
     // Start is called before the first frame update
     void Start()
@@ -39,15 +38,15 @@ public class PlayerInteract : MonoBehaviour //script detecta elementos interactu
             if(hitInfo.collider.GetComponent<Interactable>() != null)
             {
                 Interactable interactable = hitInfo.collider.GetComponent<Interactable>();
-                
+                //Debug.Log
                 playerUI.UpdateText(interactable.mensaje); //cuando tengamos delante un objeto interactivo aparecerá el mensaje "E para abrir" o lo que sea
                 if (inputManager.gameplay.Interact.triggered)
                 {
                     interactable.BaseInteract();
-                    //if (interactable is Weapon weapon)
-                    //{
-                    //    EquipWeapon(weapon);
-                    //}
+                    if (interactable is Weapon weapon)
+                    {
+                        EquipWeapon(weapon);
+                    }
                 }
             }
 
