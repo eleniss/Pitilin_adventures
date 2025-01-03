@@ -10,6 +10,7 @@ public class InputManager : MonoBehaviour
 
     private PlayerLook look;
 
+
     // Start is called before the first frame update
     void Awake()
     {
