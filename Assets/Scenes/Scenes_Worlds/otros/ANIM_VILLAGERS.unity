@@ -656,15 +656,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c2f59266d9ccafd4c989a08c39c164b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1200.2988
+      value: 1502.2988
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c2f59266d9ccafd4c989a08c39c164b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -183.8
+      value: -1147.6252
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c2f59266d9ccafd4c989a08c39c164b6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2978.2314
+      value: 4408.9316
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c2f59266d9ccafd4c989a08c39c164b6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8962,7 +8962,7 @@ Transform:
   m_GameObject: {fileID: 845349740}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1200.7, y: -132.17474, z: 2898.4}
+  m_LocalPosition: {x: 1502.7, y: -1096, z: 4329.0996}
   m_LocalScale: {x: 193.73172, y: 101.36615, z: 158.66891}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10480,12 +10480,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3900108754347413305, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_margin.x
+      value: 46.19159
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108754347413305, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_textAlignment
       value: 65535
       objectReference: {fileID: 0}
     - target: {fileID: 3900108754347413305, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108754347413311, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -50.899998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108754347413311, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108754347413311, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3900108755062758285, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_Name
@@ -10602,6 +10618,34 @@ PrefabInstance:
     - target: {fileID: 3900108755196472087, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108755397112062, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.4400003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108755397112062, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.4400003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108755397112062, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.4400003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108755397112062, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108755397112062, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108755397112062, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116449485086562217, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6116449485086562217, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_textAlignment
@@ -11208,7 +11252,7 @@ Transform:
   m_GameObject: {fileID: 960916467}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1195, y: -132.17474, z: 2759.3}
+  m_LocalPosition: {x: 1497, y: -1096, z: 4190}
   m_LocalScale: {x: 193.6668, y: 101.36615, z: 121.774864}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16456,27 +16500,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 9
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-226.400482,\"yPos\":180.6},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"He
-    venido desde tierras lejanas para salvar a la aldea de un oscuro futuro sin gluten\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":47.9997864,\"yPos\":237.4},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si
+  CurrentIDCounter: 11
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":74.1994,\"yPos\":154.199982},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"He
+    venido desde tierras lejanas para salvar a la aldea de un oscuro futuro sin gluten\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":348.599548,\"yPos\":210.9999},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si
     el destino me ha tra\xEDdo aqu\xED para devolver el pan a esta tierra, cumplir\xE9
-    con mi misi\xF3n.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":41.599762,\"yPos\":351.800049},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si
+    con mi misi\xF3n.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":342.199524,\"yPos\":325.400146},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si
     el futuro de esta aldea depende del pan y del gluten, no dejar\xE9 que la oscuridad
-    se apodere de ella.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":562.3998,\"yPos\":234.200043},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"El
-    gluten es nuestra fuerza, y no dejar\xE9 que lo destruyan.\",\"parentUIDs\":[5],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":563.1998,\"yPos\":352.599976},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"El
-    gluten es nuestra fuerza, y no dejar\xE9 que lo destruyan.\",\"parentUIDs\":[6],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":-88.19997,\"yPos\":48.4000244},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"\xA1Ah,
+    se apodere de ella.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":862.9978,\"yPos\":207.8},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"El
+    gluten es nuestra fuerza, y no dejar\xE9 que lo destruyan.\",\"parentUIDs\":[5],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":863.797852,\"yPos\":326.200073},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"El
+    gluten es nuestra fuerza, y no dejar\xE9 que lo destruyan.\",\"parentUIDs\":[6],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":212.399963,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"\xA1Ah,
     bien hallado, forastero! Que el buen pan de trigo endulce tu d\xEDa, \xBFQu\xE9
-    viento lo trae por estas humildes tierras?\\\"\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"ALDEANO\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":-228.000519,\"yPos\":291.2},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"\xA1Por
+    viento lo trae por estas humildes tierras?\\\"\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"PETER
+    ROBBINSON\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":72.59943,\"yPos\":264.799744},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"\xA1Por
     el buen pan!  No puedo imaginar tal futuro. Debemos actuar r\xE1pido, forastero.
     Si realmente deseas salvarnos, debes ir al ayuntamiento. Solo all\xED, donde
     se guarda la llave del gran horno, podr\xE1s encenderlo nuevamente y traer el
-    pan que nos da vida.\\\"\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"ALDEANO\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":299.2001,\"yPos\":223.200043},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Pero,
+    pan que nos da vida.\\\"\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"PETER
+    ROBBINSON\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":599.7981,\"yPos\":196.8},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Pero,
     ten cuidado... hay quienes murmuran que algo a\xFAn peor que los monstruos acecha
     en las sombras: un viejo mal que busca erradicar todo lo que lleva gluten. \xA1Deber\xE1s
-    ser astuto!\\\"\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"ALDEANO\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":308.800018,\"yPos\":334.400024},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Pero,
+    ser astuto!\\\"\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"PETER
+    ROBBINSON\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":609.3981,\"yPos\":308.000122},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Pero,
     ten cuidado... hay quienes murmuran que algo a\xFAn peor que los monstruos acecha
     en las sombras: un viejo mal que busca erradicar todo lo que lleva gluten. \xA1Deber\xE1s
-    ser astuto!\\\"\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"ALDEANO\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
+    ser astuto!\\\"\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"PETER
+    ROBBINSON\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -17850,15 +17898,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6889163898701737181, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1231
+      value: 1484
       objectReference: {fileID: 0}
     - target: {fileID: 6889163898701737181, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -105
+      value: -1096
       objectReference: {fileID: 0}
     - target: {fileID: 6889163898701737181, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2246
+      value: 3775
       objectReference: {fileID: 0}
     - target: {fileID: 6889163898701737181, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20558,7 +20606,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 6
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 1f7c783766dd26a4a8ebcc4fee45a4f5, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1988470013
 MonoBehaviour:
@@ -20577,7 +20625,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 5
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 1f7c783766dd26a4a8ebcc4fee45a4f5, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1988470014
 MonoBehaviour:
@@ -20634,7 +20682,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 2
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 1f7c783766dd26a4a8ebcc4fee45a4f5, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1988470017
 MonoBehaviour:
@@ -20672,7 +20720,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 1f7c783766dd26a4a8ebcc4fee45a4f5, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &1991121251
 GameObject:
