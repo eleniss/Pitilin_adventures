@@ -124,6 +124,7 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 23800000, guid: bae1922bedb3b3345b0817f7685f2387, type: 2}
 --- !u!1 &1172819
 GameObject:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
