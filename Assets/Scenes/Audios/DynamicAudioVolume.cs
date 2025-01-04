@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class DynamicAudioVolume : MonoBehaviour
 {
-    public Transform player; 
-    public float maxVolumeDistance = 50f; 
-    public float maxDistance = 150f; 
+    public Transform player;
+    public float maxVolumeDistance = 50f;
+    public float maxDistance = 150f;
+    public float maxVolume = 1f; // Volumen máximo, ahora es una variable pública.
     private AudioSource audioSource;
 
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-  
+        if (audioSource != null)
+        {
+            audioSource.volume = maxVolume; // Configurar el volumen inicial.
+        }
     }
 
     void Update()
@@ -25,19 +29,19 @@ public class DynamicAudioVolume : MonoBehaviour
             // Si el jugador está dentro del rango máximo, ajusta el volumen.
             if (distance < maxDistance)
             {
-                // Determine the volume based on the distance thresholds.
+                // Determine el volumen basado en los umbrales de distancia.
                 if (distance <= maxVolumeDistance)
                 {
-                    audioSource.volume = 0.6f; // Full volume within the maxVolumeDistance.
+                    audioSource.volume = maxVolume; // Volumen máximo dentro del rango cercano.
                 }
                 else
                 {
-                    // Gradually decrease volume from maxVolumeDistance to maxDistance.
+                    // Disminuir gradualmente el volumen desde maxVolumeDistance a maxDistance.
                     float t = (distance - maxVolumeDistance) / (maxDistance - maxVolumeDistance);
-                    audioSource.volume = Mathf.Lerp(1f, 0f, t);
+                    audioSource.volume = Mathf.Lerp(maxVolume, 0f, t);
                 }
 
-                // Ensure the sound is playing.
+                // Asegurarse de que el sonido se esté reproduciendo.
                 if (!audioSource.isPlaying)
                 {
                     audioSource.Play();
