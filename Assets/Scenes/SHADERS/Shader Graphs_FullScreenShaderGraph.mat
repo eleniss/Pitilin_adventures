@@ -46,7 +46,7 @@ Material:
     - _Fullscreen_SrcAlphaBlend: 1
     - _Fullscreen_SrcColorBlend: 5
     - _hue: 1
-    - _saturation: 5
+    - _saturation: 9
     - _value: 1
     m_Colors:
     - _color1: {r: 0.42083484, g: 0.46226418, b: 0.42083484, a: 0.62352943}
