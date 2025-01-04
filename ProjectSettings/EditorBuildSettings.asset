@@ -6,12 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Scenes_Worlds/Homescreen.unity
+    path: Assets/Scenes/SCENES/Homescreen.unity
     guid: 23123b6397a23fe4f8600ce22612a299
   - enabled: 1
-    path: Assets/Scenes/Scenes_Worlds/NormaWorld.unity
-    guid: 2aa6bf7b581bb864b8edfcc40701f932
-  - enabled: 1
-    path: Assets/Scenes/Worlds/DistopicWorld.unity
-    guid: 54e44a6227ebb1a4f8585a84c5eb70de
+    path: Assets/Scenes/SCENES/ESCENA FINAL.unity
+    guid: 0edb70c63cf7e0b4f8ca016c22524aa0
   m_configObjects: {}
