@@ -5,8 +5,8 @@ using UnityEngine;
 public class DynamicAudioVolume : MonoBehaviour
 {
     public Transform player; 
-    public float maxVolumeDistance = 100f; 
-    public float maxDistance = 200f; 
+    public float maxVolumeDistance = 50f; 
+    public float maxDistance = 150f; 
     private AudioSource audioSource;
 
     void Start()
@@ -28,7 +28,7 @@ public class DynamicAudioVolume : MonoBehaviour
                 // Determine the volume based on the distance thresholds.
                 if (distance <= maxVolumeDistance)
                 {
-                    audioSource.volume = 1f; // Full volume within the maxVolumeDistance.
+                    audioSource.volume = 0.6f; // Full volume within the maxVolumeDistance.
                 }
                 else
                 {
