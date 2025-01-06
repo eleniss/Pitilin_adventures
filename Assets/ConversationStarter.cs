@@ -12,7 +12,7 @@ public class ConversationStarter : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (Input.GetKeyDown(KeyCode.I))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 ConversationManager.Instance.StartConversation(myConversation);
                 
