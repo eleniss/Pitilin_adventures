@@ -3652,27 +3652,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 11
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":74.1994,\"yPos\":154.199982},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"He
-    venido desde tierras lejanas para salvar a la aldea de un oscuro futuro sin gluten\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":348.599548,\"yPos\":210.9999},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si
+  CurrentIDCounter: 12
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":71.39973,\"yPos\":154.20015},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"He
+    venido desde tierras lejanas para salvar a la aldea de un oscuro futuro sin gluten\",\"parentUIDs\":[0],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":345.800018,\"yPos\":211.000275},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si
     el destino me ha tra\xEDdo aqu\xED para devolver el pan a esta tierra, cumplir\xE9
-    con mi misi\xF3n.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":342.199524,\"yPos\":325.400146},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si
+    con mi misi\xF3n.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":339.400055,\"yPos\":325.4003},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Si
     el futuro de esta aldea depende del pan y del gluten, no dejar\xE9 que la oscuridad
-    se apodere de ella.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":862.9978,\"yPos\":207.8},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"El
-    gluten es nuestra fuerza, y no dejar\xE9 que lo destruyan.\",\"parentUIDs\":[5],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":863.797852,\"yPos\":326.200073},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"El
-    gluten es nuestra fuerza, y no dejar\xE9 que lo destruyan.\",\"parentUIDs\":[6],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":212.399963,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"\xA1Ah,
+    se apodere de ella.\",\"parentUIDs\":[2],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":860.2003,\"yPos\":207.800308},\"ID\":7,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"El
+    gluten es nuestra fuerza, y no dejar\xE9 que lo destruyan.\",\"parentUIDs\":[5],\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":861.000366,\"yPos\":326.200226},\"ID\":8,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"El
+    gluten es nuestra fuerza, y no dejar\xE9 que lo destruyan.\",\"parentUIDs\":[6],\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":209.599976,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"\xA1Ah,
     bien hallado, forastero! Que el buen pan de trigo endulce tu d\xEDa, \xBFQu\xE9
     viento lo trae por estas humildes tierras?\\\"\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"PETER
-    ROBBINSON\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":72.59943,\"yPos\":264.799744},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"\xA1Por
+    ROBBINSON\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":69.79972,\"yPos\":264.799377},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"\xA1Por
     el buen pan!  No puedo imaginar tal futuro. Debemos actuar r\xE1pido, forastero.
     Si realmente deseas salvarnos, debes ir al ayuntamiento. Solo all\xED, donde
     se guarda la llave del gran horno, podr\xE1s encenderlo nuevamente y traer el
     pan que nos da vida.\\\"\",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"PETER
-    ROBBINSON\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":599.7981,\"yPos\":196.8},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Pero,
+    ROBBINSON\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":7}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":596.9995,\"yPos\":196.800308},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Pero,
     ten cuidado... hay quienes murmuran que algo a\xFAn peor que los monstruos acecha
     en las sombras: un viejo mal que busca erradicar todo lo que lleva gluten. \xA1Deber\xE1s
     ser astuto!\\\"\",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"PETER
-    ROBBINSON\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":609.3981,\"yPos\":308.000122},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Pero,
+    ROBBINSON\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":8}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":606.599365,\"yPos\":307.999664},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"\\\"Pero,
     ten cuidado... hay quienes murmuran que algo a\xFAn peor que los monstruos acecha
     en las sombras: un viejo mal que busca erradicar todo lo que lleva gluten. \xA1Deber\xE1s
     ser astuto!\\\"\",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"PETER
@@ -4407,6 +4407,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5838850827692847669, guid: dbfc4b8b15c53ea4bad069a93cbbde48, type: 3}
   m_PrefabInstance: {fileID: 406489946}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &270389112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+  m_PrefabInstance: {fileID: 786546635}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &270389113
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270389112}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d16fd330f533b9e41a185e4e2b8fc93a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &270389114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270389112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35bac9393e3361a4684129f9e3f222c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DetectionPoint: {fileID: 540230304}
+  speed: 65
+  WhatIsGround:
+    serializedVersion: 2
+    m_Bits: 128
+  distance: 15.1
 --- !u!1 &274764462
 GameObject:
   m_ObjectHideFlags: 0
@@ -6198,6 +6242,82 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1001 &391997854
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 32.829
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 32.829
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 32.829
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1119.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -23.409576
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2831.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5650834
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8250339
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -111.184
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_Name
+      value: Paladin J Nordstrom (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 651359366}
+  m_SourcePrefab: {fileID: 100100000, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
 --- !u!1 &396023223
 GameObject:
   m_ObjectHideFlags: 0
@@ -10782,6 +10902,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635127916}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &651359364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+  m_PrefabInstance: {fileID: 391997854}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &651359366
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651359364}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bbbdb2a915a53764499c6896d788fddd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &654744687
 GameObject:
   m_ObjectHideFlags: 0
@@ -13336,6 +13482,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 778480090}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &786546635
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 32.829
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 32.829
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 32.829
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 966.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 33.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2714.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      propertyPath: m_Name
+      value: Paladin J Nordstrom
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 270389114}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 270389113}
+  m_SourcePrefab: {fileID: 100100000, guid: d6f48218afa1d534a868fc1d20ad9c32, type: 3}
 --- !u!1 &796554268
 GameObject:
   m_ObjectHideFlags: 0
@@ -15145,6 +15366,78 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958667896}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &961385122
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 26.115786
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 26.115786
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 26.115786
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 974.72144
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3046.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98429507
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.1765313
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -20.336
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      propertyPath: m_Name
+      value: Peasant Girl
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1963884976}
+  m_SourcePrefab: {fileID: 100100000, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
 --- !u!1 &970474681
 GameObject:
   m_ObjectHideFlags: 0
@@ -21477,6 +21770,50 @@ Transform:
   - {fileID: 1546684678}
   m_Father: {fileID: 326811840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1592310392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1592310394}
+  - component: {fileID: 1592310393}
+  m_Layer: 0
+  m_Name: ChicaConversation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1592310393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592310392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a589cd44cc2a184ba438ae6e4ccdeec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1592310394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592310392}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1023.7597, y: -228.39305, z: -3367.9226}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1598007522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26349,6 +26686,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953402408}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1963884974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ba82a383afcd82438df72f682e540b0, type: 3}
+  m_PrefabInstance: {fileID: 961385122}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1963884976
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963884974}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 43858c8d8c9007e478eeba8d013943b1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1964772784
 GameObject:
   m_ObjectHideFlags: 0
@@ -30113,3 +30476,7 @@ SceneRoots:
   - {fileID: 483434071}
   - {fileID: 1630807590}
   - {fileID: 402260523}
+  - {fileID: 786546635}
+  - {fileID: 961385122}
+  - {fileID: 391997854}
+  - {fileID: 1592310394}
