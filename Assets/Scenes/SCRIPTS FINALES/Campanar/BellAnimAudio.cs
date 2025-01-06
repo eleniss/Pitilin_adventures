@@ -10,7 +10,7 @@ public class BellAnimAudio : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             animator.SetTrigger("isBell");
             audioSource.Play(); 

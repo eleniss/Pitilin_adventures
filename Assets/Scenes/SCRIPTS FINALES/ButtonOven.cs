@@ -26,7 +26,7 @@ public class ButtonOven : MonoBehaviour
     private void Update()
     {
         // Detectar si se presiona la tecla "E"
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.B))
         {
             // Evitar que el botón sea presionado múltiples veces mientras ya está en proceso
             if (!isPressed)

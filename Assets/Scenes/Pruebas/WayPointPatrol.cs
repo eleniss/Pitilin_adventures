@@ -31,7 +31,6 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void ChangeWaypoint()
     {
-        //podemos hace un if para que no sume más Waypoints de los que hay o podemos hacer un módulo.
         currentWaypointIndex++;
         currentWaypointIndex = currentWaypointIndex % WayPoints.Length;
     }
