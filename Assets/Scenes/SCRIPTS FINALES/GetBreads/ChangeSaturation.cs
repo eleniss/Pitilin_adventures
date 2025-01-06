@@ -2,48 +2,43 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.Rendering.PostProcessing;
 
 
 public class ChangeSaturation : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public Material _materialFullScreen;
+    public Volume globalVolume;
+    private ColorAdjustments colorAdjustments;
     private float destructionCount = 0f;
     private float maxSat = 100f;
-    private float minSat = 0f;
+    private float minSat = -20f;
 
-    public void OnObjectDestroyed()
+    void Start()
     {
-        destructionCount = Mathf.Min(destructionCount + 5f, maxSat);
-
-        _materialFullScreen.SetFloat("_saturation", destructionCount);
-
+        if (globalVolume.profile.TryGet<ColorAdjustments>(out colorAdjustments))
+        {
+            colorAdjustments.saturation.value = minSat;
+        }
     }
 
+    public void CambiarSaturacion()
+    {
+        destructionCount = Mathf.Min(destructionCount + 20f, maxSat);
+
+        if (colorAdjustments != null)
+        {
+            colorAdjustments.saturation.value = destructionCount;
+        }
+    }
     public void ResetSat()
     {
-        destructionCount = Mathf.Min(destructionCount - 1f, minSat);
-        _materialFullScreen.SetFloat("_saturation", destructionCount);
+        destructionCount = Mathf.Max(destructionCount - 20f, minSat);
+
+        if (colorAdjustments != null)
+        {
+            colorAdjustments.saturation.value = destructionCount;
+        }
     }
 
-    //public PostProcessVolume vol;
-    //private ColorGrading colorGrading;
-
-    //void Start()
-    //{
-    //    
-    //    if (vol.profile.TryGetSettings(out colorGrading))
-    //    {
-    //        colorGrading.saturation.value = 0;
-    //    }
-    //}
-
-    //public void CambiarSaturacion(float newSaturation)
-    //{
-    //    if (colorGrading != null)
-    //    {
-    //        colorGrading.saturation.value = newSaturation;
-    //    }
-    //}
 }
