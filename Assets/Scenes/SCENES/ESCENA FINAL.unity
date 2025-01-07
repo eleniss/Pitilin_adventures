@@ -507,7 +507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de4b99210f728aa418bf39deb46e403a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mensaje: Press "E" for interaction
+  mensaje: Press "C" for interaction
 --- !u!65 &32759286
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27808,7 +27808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de4b99210f728aa418bf39deb46e403a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mensaje: Press "E" for interaction
+  mensaje: Press "B" for interaction
 --- !u!65 &1614490794
 BoxCollider:
   m_ObjectHideFlags: 0
