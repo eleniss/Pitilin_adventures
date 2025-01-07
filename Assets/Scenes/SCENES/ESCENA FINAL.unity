@@ -10378,7 +10378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigo: {fileID: 1172971496}
-  puerta: {fileID: 2119500742}
+  puerta: {fileID: 0}
   textoInteraccion: {fileID: 1816070044}
   barraVidaPlayer: {fileID: 1718160592}
 --- !u!1 &519044647
@@ -25313,7 +25313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaEnemigo: 100
   barraVidaEnemigo: {fileID: 1784807165}
-  puerta: {fileID: 2119500742}
+  puerta: {fileID: 0}
 --- !u!1 &1176688967
 GameObject:
   m_ObjectHideFlags: 0
@@ -42276,6 +42276,10 @@ PrefabInstance:
     - target: {fileID: 2771744397764831142, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
       propertyPath: jumpHeight
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4435868577360028816, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4435868577360028816, guid: 0c1708c66d12d444fa572b1ccec10b58, type: 3}
       propertyPath: m_Materials.Array.data[0]

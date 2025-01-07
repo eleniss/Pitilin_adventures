@@ -18,6 +18,7 @@ public class Puerta : MonoBehaviour
             // Verifica si la puerta ha llegado a la posición abierta
             if (Vector3.Distance(transform.position, posicionAbierta) < 0.01f)
             {
+                transform.position = posicionAbierta;
                 abrirPuerta = false; // Detiene el movimiento
             }
         }
