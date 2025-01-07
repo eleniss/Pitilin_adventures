@@ -38,6 +38,12 @@ public class PlayerMovement : MonoBehaviour
         playerVelocity.y += gravity * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
     }
+
+    public void SetSpeed(float newSpeed)
+    {
+        speed = newSpeed;
+    }
+
     public void ProcessMove(Vector2 input) //recibe inputs y los aplica al personaje
     {
         Vector3 moveDirection = Vector3.zero;
