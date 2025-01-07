@@ -10378,7 +10378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemigo: {fileID: 1172971496}
-  puerta: {fileID: 0}
+  puerta: {fileID: 2119500742}
   textoInteraccion: {fileID: 1816070044}
   barraVidaPlayer: {fileID: 1718160592}
 --- !u!1 &519044647
@@ -25313,7 +25313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidaEnemigo: 100
   barraVidaEnemigo: {fileID: 1784807165}
-  puerta: {fileID: 0}
+  puerta: {fileID: 2119500742}
 --- !u!1 &1176688967
 GameObject:
   m_ObjectHideFlags: 0
@@ -41104,7 +41104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b72b6cb8076a37458315ad11d990784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  posicionAbierta: {x: -5.449131, y: 37.36547, z: 1.48}
+  posicionAbierta: {x: -5.449131, y: 37.36547, z: 1.3}
   velocidadApertura: 50
 --- !u!1 &2123708646
 GameObject:
