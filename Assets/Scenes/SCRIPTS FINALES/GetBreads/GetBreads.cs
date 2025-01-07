@@ -27,6 +27,7 @@ public class GetBreads : MonoBehaviour
             Destroy(other.gameObject);
             _changeSaturation.CambiarSaturacion();
             spawn.spawnFood();
+            spawn.RemoveAllHaters();
             foodBar.EatBread(WithGluten); 
 
         }
@@ -36,6 +37,7 @@ public class GetBreads : MonoBehaviour
             foodBar.EatBread(NoGluten);
             _changeSaturation.ResetSat();
             spawn.spawnHater();
+            spawn.RemoveAllPastries();
 
         }
     }
