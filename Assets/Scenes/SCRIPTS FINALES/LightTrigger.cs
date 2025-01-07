@@ -4,36 +4,37 @@ using UnityEngine;
 
 public class LightTrigger : MonoBehaviour
 {
-    public Light lightSource;      // Reference to the Light component
-    public float activationDistance = 5f; // Distance at which the light turns on
-    public float maxDistance = 10f; // Maximum distance for the light to stay on
+    public Light lightSource;      
+    public float activationDistance = 5f; 
+    public float maxDistance = 10f; 
 
-    private Transform player;      // Reference to the player transform
+    private Transform player;      
 
     void Start()
     {
-        player = GameObject.FindWithTag("Player").transform; // Assuming player has the "Player" tag
+        player = GameObject.FindWithTag("Player").transform;
+        lightSource.enabled = false;
+
     }
 
     void Update()
     {
-        // Get the distance between the player and the light source
         float distance = Vector3.Distance(player.position, lightSource.transform.position);
+        Debug.Log($"Distancia al jugador: {distance}");
+        Debug.Log($"Luz antes: {lightSource.enabled}");
 
-        // If the player is within the activation range, turn on the light
         if (distance <= activationDistance)
         {
-            lightSource.enabled = true; // Turn on the light
+            lightSource.enabled = true;
+            Debug.Log($"Luz en posicion: {lightSource.enabled}");
         }
-        // If the player is farther than maxDistance, turn off the light
         else if (distance > maxDistance)
         {
-            lightSource.enabled = false; // Turn off the light
+            lightSource.enabled = false; 
         }
         else
         {
-            // Optionally, fade light intensity based on distance
-            float intensity = Mathf.Lerp(0f, 1f, (maxDistance - distance) / maxDistance);
+            float intensity = Mathf.Lerp(0f, 10000f, (maxDistance - distance) / maxDistance);
             lightSource.intensity = intensity;
         }
     }
