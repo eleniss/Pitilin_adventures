@@ -12,6 +12,7 @@ public class GetBreads : MonoBehaviour
     public float WithGluten = 20f;
     public float NoGluten = -5f;
     public AudioSource audioSource;
+    public AudioSource audioSource2;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -33,6 +34,10 @@ public class GetBreads : MonoBehaviour
         }
         else if (other.CompareTag("BadBread"))
         {
+            if (audioSource2 != null)
+            {
+                audioSource2.Play();
+            }
             Destroy(other.gameObject);
             foodBar.EatBread(NoGluten);
             _changeSaturation.ResetSat();
